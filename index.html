@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harsh's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile img {
+      width: 200px;
+      border-radius: 100%;
+      border: 4px solid #333;
+    }
+
+    .info {
+      flex: 1;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #cccccc;
+    }
+
+    .contact {
+      margin-top: 30px;
+    }
+
+    .contact h3 {
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .contact a {
+      color: #4db8ff;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #2a2a2a;
+      color: #fff;
+      font-size: 1em;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #999;
+    }
+
+    button {
+      padding: 12px;
+      background: #4db8ff;
+      border: none;
+      color: #121212;
+      font-weight: bold;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #39a0e0;
+    }
+
+    @media (max-width: 600px) {
+      .profile {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile img {
+        width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="file:///C:/Users/Harshit/OneDrive/Desktop/my%20website/IMG_20250614_173630_964.webp" alt="My Photo" />
+      <div class="info">
+        <h1>Harsh Shrivastava</h1>
+        <p> Hi👋,I'm Harsh Shrivastava😊 i am a passionate web developer and student of Computer Science. I enjoy building clean, responsive websites and exploring new technologies.</p>
+        <p>Currently, I am focused on enhancing my skills in web development 🚀 and exploring the latest trends in technology. I love to learn and share knowledge with others.</p>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h3>Contact Me☎️</h3>
+      <p>Email: <a href="harshshrivatsvata534gmail.com">harshshrivatsvata534gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/harshshrivastava" target="_blank">github.com/harshshrivastava</a></p>
+      <p>Instagram: <a href="https://instagram.com/harsxh.18" target="_blank">@harsxh.18</a></p>
+      <h3>Project:</h3>
+      <p><a href="" target="_blank"> This is my first Project</a></p>
+      
+
+<h3>Your Details:</h3>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
